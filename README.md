@@ -33,4 +33,16 @@ mkdir -p ~/.local/share/fonts/
 cp -p sfmono-square/*.otf ~/.local/share/fonts/
 fc-list -v
 ```
+* Code Serverに適用
+```
+git clone git@github.com:taigamorikawa/sfmono-square.git
 
+WKB_PATH="/usr/lib/code-server/lib/vscode/out/vs/workbench/"
+mv sfmono-square $WKB_PATH
+cd $WKB_PATH
+mv sfmono-square fonts
+
+cp -p workbench.web.main.css workbench.web.main.css.bak
+sed -i '1i@import url\("fonts\/fonts.css"\);' workbench.web.main.css
+systemctl restart code-server@[username].service
+```
