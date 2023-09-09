@@ -9,7 +9,27 @@ MacOS環境はもちろんのこと、開発環境として用意しているCod
 
 このリポジトリは、本家が提供しているBrewからインストールし、Linux環境やWindows環境にもインストールできるように、出来上がった*.otfファイルを配置しておくためのものです。
 
-Windows環境
+### MacOS環境
+本家リポジトリ参照 （brewからインストール）→ [homebrew-sfmono-square](https://github.com/delphinus/homebrew-sfmono-square)
+
+### Windows環境
 ```
-git clone 
+git clone git@github.com:taigamorikawa/sfmono-square.git
 ```
+もしくは、Rawダウンロードを行い、*.otfファイルをダブルクリックでフォントブックにインストール
+
+### Linux環境
+* 全てのユーザに適用
+```
+git clone git@github.com:taigamorikawa/sfmono-square.git
+cp -p sfmono-square/*.otf /usr/share/fonts/
+fc-list -v
+```
+* 個別ユーザに適用
+```
+git clone git@github.com:taigamorikawa/sfmono-square.git
+mkdir -p ~/.local/share/fonts/
+cp -p sfmono-square/*.otf ~/.local/share/fonts/
+fc-list -v
+```
+
