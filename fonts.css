@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'SF Mono Square';
+    font-style: Regular;
+    font-weight: 400;
+    src: url(SFMonoSquare-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: 'SF Mono Square';
+    font-style: Regular;
+    font-weight: 700;
+    src: url(SFMonoSquare-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Mono Square';
+    font-style: Italic;
+    font-weight: 400;
+    src: url(SFMonoSquare-Bold.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'SF Mono Square';
+    font-style: Italic;
+    font-weight: 700;
+    src: url(SFMonoSquare-BoldItalic.otf) format('opentype');
+}
