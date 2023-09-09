@@ -10,7 +10,7 @@ MacOS環境はもちろんのこと、開発環境として用意しているCod
 このリポジトリは、本家が提供しているBrewからインストールし、Linux環境やWindows環境にもインストールできるように、出来上がった*.otfファイルを配置しておくためのものです。
 
 ### MacOS環境
-本家リポジトリ参照 （brewからインストール）
+本家リポジトリ参照 (brewからインストール)
 → [homebrew-sfmono-square](https://github.com/delphinus/homebrew-sfmono-square)
 
 ### Windows環境
