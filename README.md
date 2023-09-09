@@ -46,3 +46,4 @@ cp -p workbench.web.main.css workbench.web.main.css.bak
 sed -i '1i@import url\("fonts\/fonts.css"\);' workbench.web.main.css
 systemctl restart code-server@[username].service
 ```
+workbench.web.main.css バックアップファイル：workbench.web.main.css.bak
